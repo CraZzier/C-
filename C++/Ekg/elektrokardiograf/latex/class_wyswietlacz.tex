@@ -1,0 +1,143 @@
+\section{Wyswietlacz Class Reference}
+\label{class_wyswietlacz}\index{Wyswietlacz@{Wyswietlacz}}
+
+
+Podobiekt Elektrokardigrafu i \doxyref{Smartekg}{p.}{class_smartekg}.  
+
+
+
+
+{\ttfamily \#include $<$wyswietlacz.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Wyswietlacz} ()
+\begin{DoxyCompactList}\small\item\em konstruktor domyslny \end{DoxyCompactList}\item 
+void \textbf{ uzupelnij\+\_\+dane} (int, int, int, bool, string)
+\begin{DoxyCompactList}\small\item\em nadawanie parametrow \end{DoxyCompactList}\item 
+\textbf{ $\sim$\+Wyswietlacz} ()
+\begin{DoxyCompactList}\small\item\em destruktor wyswietlacza \end{DoxyCompactList}\item 
+void \textbf{ odczyt\+\_\+z\+\_\+pliku} (string)
+\begin{DoxyCompactList}\small\item\em czytanie z pliku \end{DoxyCompactList}\item 
+void \textbf{ zapisz\+\_\+do\+\_\+pliku} (string, int)
+\begin{DoxyCompactList}\small\item\em zapisywanie do pliku \end{DoxyCompactList}\item 
+void \textbf{ operator$<$$<$} (string s)
+\begin{DoxyCompactList}\small\item\em operatory do zapisu w pliku przyjmujace jego nazwe \end{DoxyCompactList}\item 
+void \textbf{ operator$>$$>$} (string s)
+\begin{DoxyCompactList}\small\item\em operatory do odczytu z pliku przyjmujace jego nazwe \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \textbf{ operator$<$$<$} (ostream \&wyjscie, const \textbf{ Wyswietlacz} \&s)
+\begin{DoxyCompactList}\small\item\em zaprzyjazniona funkcja do wypisania obiektu za pomoca cout \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Podobiekt Elektrokardigrafu i \doxyref{Smartekg}{p.}{class_smartekg}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_wyswietlacz_a184f33d2f0e1070e5bb3a7b7d35d152f}} 
+\index{Wyswietlacz@{Wyswietlacz}!Wyswietlacz@{Wyswietlacz}}
+\index{Wyswietlacz@{Wyswietlacz}!Wyswietlacz@{Wyswietlacz}}
+\subsubsection{Wyswietlacz()}
+{\footnotesize\ttfamily Wyswietlacz\+::\+Wyswietlacz (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+konstruktor domyslny 
+
+\mbox{\label{class_wyswietlacz_a24b579830d186f91f23cf539575695c7}} 
+\index{Wyswietlacz@{Wyswietlacz}!````~Wyswietlacz@{$\sim$\+Wyswietlacz}}
+\index{````~Wyswietlacz@{$\sim$\+Wyswietlacz}!Wyswietlacz@{Wyswietlacz}}
+\subsubsection{$\sim$\+Wyswietlacz()}
+{\footnotesize\ttfamily Wyswietlacz\+::$\sim$\+Wyswietlacz (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+destruktor wyswietlacza 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{class_wyswietlacz_ab4a83e1fa18beb664003cd0d11980935}} 
+\index{Wyswietlacz@{Wyswietlacz}!odczyt\+\_\+z\+\_\+pliku@{odczyt\+\_\+z\+\_\+pliku}}
+\index{odczyt\+\_\+z\+\_\+pliku@{odczyt\+\_\+z\+\_\+pliku}!Wyswietlacz@{Wyswietlacz}}
+\subsubsection{odczyt\+\_\+z\+\_\+pliku()}
+{\footnotesize\ttfamily void Wyswietlacz\+::odczyt\+\_\+z\+\_\+pliku (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})}
+
+
+
+czytanie z pliku 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & -\/ nazwa pliku \\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_wyswietlacz_a9ed051469a93130fba9c6ac107954fdf}} 
+\index{Wyswietlacz@{Wyswietlacz}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Wyswietlacz@{Wyswietlacz}}
+\subsubsection{operator$<$$<$()}
+{\footnotesize\ttfamily void Wyswietlacz\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})}
+
+
+
+operatory do zapisu w pliku przyjmujace jego nazwe 
+
+\mbox{\label{class_wyswietlacz_a7e41ea08f95671c9cc0ed1fb046aa6e4}} 
+\index{Wyswietlacz@{Wyswietlacz}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Wyswietlacz@{Wyswietlacz}}
+\subsubsection{operator$>$$>$()}
+{\footnotesize\ttfamily void Wyswietlacz\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})}
+
+
+
+operatory do odczytu z pliku przyjmujace jego nazwe 
+
+\mbox{\label{class_wyswietlacz_ae5091e734c19e2f537bd374c4e7ae4e5}} 
+\index{Wyswietlacz@{Wyswietlacz}!uzupelnij\+\_\+dane@{uzupelnij\+\_\+dane}}
+\index{uzupelnij\+\_\+dane@{uzupelnij\+\_\+dane}!Wyswietlacz@{Wyswietlacz}}
+\subsubsection{uzupelnij\+\_\+dane()}
+{\footnotesize\ttfamily void Wyswietlacz\+::uzupelnij\+\_\+dane (\begin{DoxyParamCaption}\item[{int}]{a,  }\item[{int}]{b,  }\item[{int}]{c,  }\item[{bool}]{d,  }\item[{string}]{e }\end{DoxyParamCaption})}
+
+
+
+nadawanie parametrow 
+
+Parametry to kolejno atrybuty obiektu tej klasy \mbox{\label{class_wyswietlacz_aa44dac8ae7a0a84549a08e9042db1746}} 
+\index{Wyswietlacz@{Wyswietlacz}!zapisz\+\_\+do\+\_\+pliku@{zapisz\+\_\+do\+\_\+pliku}}
+\index{zapisz\+\_\+do\+\_\+pliku@{zapisz\+\_\+do\+\_\+pliku}!Wyswietlacz@{Wyswietlacz}}
+\subsubsection{zapisz\+\_\+do\+\_\+pliku()}
+{\footnotesize\ttfamily void Wyswietlacz\+::zapisz\+\_\+do\+\_\+pliku (\begin{DoxyParamCaption}\item[{string}]{s,  }\item[{int}]{zapis }\end{DoxyParamCaption})}
+
+
+
+zapisywanie do pliku 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & -\/ nazwa pliku \\
+\hline
+{\em int} & -\/ decyduje o dopisaniu do pliku lub nadpisaniu \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\label{class_wyswietlacz_ae6d943d6ec6cf596444b451cb978e07f}} 
+\index{Wyswietlacz@{Wyswietlacz}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Wyswietlacz@{Wyswietlacz}}
+\subsubsection{operator$<$$<$}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{wyjscie,  }\item[{const \textbf{ Wyswietlacz} \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+zaprzyjazniona funkcja do wypisania obiektu za pomoca cout 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ wyswietlacz.\+h}\item 
+\textbf{ wyswietlacz.\+cpp}\end{DoxyCompactItemize}

@@ -1,0 +1,474 @@
+\section{Elektrokardiograf Class Reference}
+\label{class_elektrokardiograf}\index{Elektrokardiograf@{Elektrokardiograf}}
+
+
+klasa \doxyref{Elektrokardiograf}{p.}{class_elektrokardiograf} obiekt glowny dziedziczaca po \doxyref{Aparatmedyczny}{p.}{class_aparatmedyczny}  
+
+
+
+
+{\ttfamily \#include $<$elektrokardiograf.\+h$>$}
+
+Inheritance diagram for Elektrokardiograf\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_elektrokardiograf}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Elektrokardiograf} ()
+\begin{DoxyCompactList}\small\item\em konstruktor domyslny \end{DoxyCompactList}\item 
+\textbf{ Elektrokardiograf} (const \textbf{ Elektrokardiograf} \&obs)
+\begin{DoxyCompactList}\small\item\em konstruktor kopiujacy \end{DoxyCompactList}\item 
+\textbf{ Elektrokardiograf} (int a, double c, double d, double e, double f, string nazwa, string model1)
+\begin{DoxyCompactList}\small\item\em konstruktor z parametrami \end{DoxyCompactList}\item 
+void \textbf{ wlacz} ()
+\begin{DoxyCompactList}\small\item\em wirtualna metoda wlaczenia przyrzadu \end{DoxyCompactList}\item 
+void \textbf{ wylacz} ()
+\begin{DoxyCompactList}\small\item\em wirtualna metoda wylaczenia przyrzadu \end{DoxyCompactList}\item 
+void \textbf{ zrobbadanie} ()
+\begin{DoxyCompactList}\small\item\em metoda \char`\"{}symulujaca\char`\"{} badania \end{DoxyCompactList}\item 
+void \textbf{ nadaj\+\_\+\+Wartosci} (int a, double c, double d, double e, double f, string nazwa, string model1)
+\begin{DoxyCompactList}\small\item\em funkcja nadajaca wartosci \end{DoxyCompactList}\item 
+double \textbf{ zwroc\+\_\+\+Powierzchnie} ()
+\begin{DoxyCompactList}\small\item\em funkcja zwraca powierzchnie /return zwraca wynik w double \end{DoxyCompactList}\item 
+double \textbf{ zwroc\+\_\+\+Wage} ()
+\begin{DoxyCompactList}\small\item\em funkcja zwraca wage /return zwraca wynik w double \end{DoxyCompactList}\item 
+\textbf{ Wyswietlacz} $\ast$ \textbf{ zwroc\+\_\+\+Wyswietlacz} ()
+\begin{DoxyCompactList}\small\item\em zwraca wyswietlacz podobiekt Elektrokardiografu /return zwraca wskaznik na drukarke \end{DoxyCompactList}\item 
+\textbf{ Drukarka} $\ast$ \textbf{ zwroc\+\_\+\+Drukarke} ()
+\begin{DoxyCompactList}\small\item\em zwraca drukarke podobiekt Elektrokardiografu /return zwraca wskaznik na drukarke \end{DoxyCompactList}\item 
+void \textbf{ wloz\+\_\+\+Baterie} (int sztuki)
+\begin{DoxyCompactList}\small\item\em wklada baterie do urzadzenia \end{DoxyCompactList}\item 
+\textbf{ $\sim$\+Elektrokardiograf} ()
+\begin{DoxyCompactList}\small\item\em destruktor Elektrokardiorafu \end{DoxyCompactList}\item 
+bool \textbf{ operator==} (const \textbf{ Elektrokardiograf} \&s)
+\begin{DoxyCompactList}\small\item\em operator porownania \end{DoxyCompactList}\item 
+void \textbf{ operator=} (const \textbf{ Elektrokardiograf} \&s)
+\begin{DoxyCompactList}\small\item\em operator pzypisania \end{DoxyCompactList}\item 
+\textbf{ Bateria} \& \textbf{ operator[$\,$]} (int a)
+\begin{DoxyCompactList}\small\item\em operator indeksowania /return zwraca wskaznik na baterie \end{DoxyCompactList}\item 
+\textbf{ operator int} () const
+\begin{DoxyCompactList}\small\item\em operator konwersji \end{DoxyCompactList}\item 
+\textbf{ Elektrokardiograf} $\ast$ \textbf{ operator++} (int n)
+\begin{DoxyCompactList}\small\item\em operator inkrementacji /return zwraca ten sam obiekt z powiekszonym czasem \end{DoxyCompactList}\item 
+void \textbf{ operator$<$$<$} (string s)
+\begin{DoxyCompactList}\small\item\em operatory do zapisu w pliku przyjmujace jego nazwe \end{DoxyCompactList}\item 
+void \textbf{ operator$>$$>$} (string s)
+\begin{DoxyCompactList}\small\item\em operatory do odczytu z pliku przyjmujace jego nazwe \end{DoxyCompactList}\item 
+void \textbf{ odczyt\+\_\+z\+\_\+pliku} (string)
+\begin{DoxyCompactList}\small\item\em czytanie z pliku \end{DoxyCompactList}\item 
+void \textbf{ zapisz\+\_\+do\+\_\+pliku} (string, int)
+\begin{DoxyCompactList}\small\item\em zapisywanie do pliku \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \textbf{ zwroc\+\_\+\+Liczbe\+\_\+\+Obiektow} ()
+\begin{DoxyCompactList}\small\item\em statyczna skladowa /return Zwraca iloœæ obiektow \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+double \textbf{ czas\+\_\+pomiaru}
+\begin{DoxyCompactList}\small\item\em $>$czas pomiaru \end{DoxyCompactList}\item 
+string \textbf{ producent}
+\begin{DoxyCompactList}\small\item\em $>$producent \end{DoxyCompactList}\item 
+string \textbf{ model}
+\begin{DoxyCompactList}\small\item\em $>$model \end{DoxyCompactList}\item 
+vector$<$ \textbf{ Bateria} $\ast$ $>$ \textbf{ bateria}
+\begin{DoxyCompactList}\small\item\em $>$podobiekt bateria \end{DoxyCompactList}\item 
+\textbf{ Wyswietlacz} \textbf{ wyswietlacz}
+\begin{DoxyCompactList}\small\item\em $>$podobiekt wyswietlacz \end{DoxyCompactList}\item 
+\textbf{ Drukarka} \textbf{ drukarka}
+\begin{DoxyCompactList}\small\item\em $>$podobiekt drukarka \end{DoxyCompactList}\item 
+bool \textbf{ dziala}
+\begin{DoxyCompactList}\small\item\em $>$czy ekg wlaczone \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \textbf{ operator$<$$<$} (ostream \&wyjscie, const \textbf{ Elektrokardiograf} \&s)
+\begin{DoxyCompactList}\small\item\em zaprzyjazniona funkcja do wypisania obiektu za pomoca cout \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+klasa \doxyref{Elektrokardiograf}{p.}{class_elektrokardiograf} obiekt glowny dziedziczaca po \doxyref{Aparatmedyczny}{p.}{class_aparatmedyczny} 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_elektrokardiograf_a30f0bcd7ee08a19b400bd600543379b6}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!Elektrokardiograf@{Elektrokardiograf}}
+\index{Elektrokardiograf@{Elektrokardiograf}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{Elektrokardiograf()\hspace{0.1cm}{\footnotesize\ttfamily [1/3]}}
+{\footnotesize\ttfamily Elektrokardiograf\+::\+Elektrokardiograf (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+konstruktor domyslny 
+
+\mbox{\label{class_elektrokardiograf_a1c0dbfd5445007f58bd855f166588ceb}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!Elektrokardiograf@{Elektrokardiograf}}
+\index{Elektrokardiograf@{Elektrokardiograf}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{Elektrokardiograf()\hspace{0.1cm}{\footnotesize\ttfamily [2/3]}}
+{\footnotesize\ttfamily Elektrokardiograf\+::\+Elektrokardiograf (\begin{DoxyParamCaption}\item[{const \textbf{ Elektrokardiograf} \&}]{obs }\end{DoxyParamCaption})}
+
+
+
+konstruktor kopiujacy 
+
+\mbox{\label{class_elektrokardiograf_a6a62071e7e101afa1263bcee46987a10}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!Elektrokardiograf@{Elektrokardiograf}}
+\index{Elektrokardiograf@{Elektrokardiograf}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{Elektrokardiograf()\hspace{0.1cm}{\footnotesize\ttfamily [3/3]}}
+{\footnotesize\ttfamily Elektrokardiograf\+::\+Elektrokardiograf (\begin{DoxyParamCaption}\item[{int}]{a,  }\item[{double}]{c,  }\item[{double}]{d,  }\item[{double}]{e,  }\item[{double}]{f,  }\item[{string}]{nazwa,  }\item[{string}]{model1 }\end{DoxyParamCaption})}
+
+
+
+konstruktor z parametrami 
+
+/param a to cena /param c to waga /param d to dlugosc /param e to szerokosc /param f to czas mierzenia /param nazwa to producent /param model1 to model \mbox{\label{class_elektrokardiograf_ace0c008d547bcbe4bff945bea6a9336b}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!````~Elektrokardiograf@{$\sim$\+Elektrokardiograf}}
+\index{````~Elektrokardiograf@{$\sim$\+Elektrokardiograf}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{$\sim$\+Elektrokardiograf()}
+{\footnotesize\ttfamily Elektrokardiograf\+::$\sim$\+Elektrokardiograf (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+destruktor Elektrokardiorafu 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{class_elektrokardiograf_a63ac999eaec3be1f13410f64668ee4f1}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!nadaj\+\_\+\+Wartosci@{nadaj\+\_\+\+Wartosci}}
+\index{nadaj\+\_\+\+Wartosci@{nadaj\+\_\+\+Wartosci}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{nadaj\+\_\+\+Wartosci()}
+{\footnotesize\ttfamily void Elektrokardiograf\+::nadaj\+\_\+\+Wartosci (\begin{DoxyParamCaption}\item[{int}]{a,  }\item[{double}]{c,  }\item[{double}]{d,  }\item[{double}]{e,  }\item[{double}]{f,  }\item[{string}]{nazwa,  }\item[{string}]{model1 }\end{DoxyParamCaption})}
+
+
+
+funkcja nadajaca wartosci 
+
+/param a to cena /param c to waga /param d to dlugosc /param e to szerokosc /param f to czas mierzenia /param nazwa to producent /param model1 to model \mbox{\label{class_elektrokardiograf_af934c2d3456229093c37310070638df2}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!odczyt\+\_\+z\+\_\+pliku@{odczyt\+\_\+z\+\_\+pliku}}
+\index{odczyt\+\_\+z\+\_\+pliku@{odczyt\+\_\+z\+\_\+pliku}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{odczyt\+\_\+z\+\_\+pliku()}
+{\footnotesize\ttfamily void Elektrokardiograf\+::odczyt\+\_\+z\+\_\+pliku (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+czytanie z pliku 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & -\/ nazwa pliku \\
+\hline
+\end{DoxyParams}
+
+
+Implements \textbf{ Aparatmedyczny} \doxyref{}{p.}{class_aparatmedyczny_a5300ce8466293b738da4f2eb5ed7b233}.
+
+
+
+Reimplemented in \textbf{ Smartekg} \doxyref{}{p.}{class_smartekg_a96fe1adb8c11601eefafe085ead3c3d1}.
+
+\mbox{\label{class_elektrokardiograf_a5862a0ddabeb36d539b18c1a764e1910}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!operator int@{operator int}}
+\index{operator int@{operator int}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{operator int()}
+{\footnotesize\ttfamily Elektrokardiograf\+::operator int (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+operator konwersji 
+
+\mbox{\label{class_elektrokardiograf_a96f876b75c35c3399fda3f87949bc74d}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!operator++@{operator++}}
+\index{operator++@{operator++}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{operator++()}
+{\footnotesize\ttfamily \textbf{ Elektrokardiograf}$\ast$ Elektrokardiograf\+::operator++ (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+operator inkrementacji /return zwraca ten sam obiekt z powiekszonym czasem 
+
+\mbox{\label{class_elektrokardiograf_af04130d876dc037e0f4fcddc623885c5}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{operator$<$$<$()}
+{\footnotesize\ttfamily void Elektrokardiograf\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})}
+
+
+
+operatory do zapisu w pliku przyjmujace jego nazwe 
+
+\mbox{\label{class_elektrokardiograf_a3a074ae206fb60425828976853692482}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!operator=@{operator=}}
+\index{operator=@{operator=}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{operator=()}
+{\footnotesize\ttfamily void Elektrokardiograf\+::operator= (\begin{DoxyParamCaption}\item[{const \textbf{ Elektrokardiograf} \&}]{s }\end{DoxyParamCaption})}
+
+
+
+operator pzypisania 
+
+\mbox{\label{class_elektrokardiograf_ad9618c686dc77d6e4b5b53fc691e1f3d}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!operator==@{operator==}}
+\index{operator==@{operator==}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{operator==()}
+{\footnotesize\ttfamily bool Elektrokardiograf\+::operator== (\begin{DoxyParamCaption}\item[{const \textbf{ Elektrokardiograf} \&}]{s }\end{DoxyParamCaption})}
+
+
+
+operator porownania 
+
+\mbox{\label{class_elektrokardiograf_aea353bd56981c8407a506817bd95c777}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{operator$>$$>$()}
+{\footnotesize\ttfamily void Elektrokardiograf\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})}
+
+
+
+operatory do odczytu z pliku przyjmujace jego nazwe 
+
+\mbox{\label{class_elektrokardiograf_ad73eda999999956ad1e7e68b627dfd7e}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!operator[]@{operator[]}}
+\index{operator[]@{operator[]}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{operator[]()}
+{\footnotesize\ttfamily \textbf{ Bateria} \& Elektrokardiograf\+::operator[$\,$] (\begin{DoxyParamCaption}\item[{int}]{a }\end{DoxyParamCaption})}
+
+
+
+operator indeksowania /return zwraca wskaznik na baterie 
+
+\mbox{\label{class_elektrokardiograf_a78b8311e31aa24ab92998e8105e72dd1}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!wlacz@{wlacz}}
+\index{wlacz@{wlacz}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{wlacz()}
+{\footnotesize\ttfamily void Elektrokardiograf\+::wlacz (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+wirtualna metoda wlaczenia przyrzadu 
+
+
+
+Implements \textbf{ Aparatmedyczny} \doxyref{}{p.}{class_aparatmedyczny_a303cd2ab42aa4a4a29bb59d685573c78}.
+
+
+
+Reimplemented in \textbf{ Smartekg} \doxyref{}{p.}{class_smartekg_ab976b0a43ff21e254af74a29b4fc8688}.
+
+\mbox{\label{class_elektrokardiograf_a11a6a56b4a61b660b928549cdc6d35f8}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!wloz\+\_\+\+Baterie@{wloz\+\_\+\+Baterie}}
+\index{wloz\+\_\+\+Baterie@{wloz\+\_\+\+Baterie}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{wloz\+\_\+\+Baterie()}
+{\footnotesize\ttfamily void Elektrokardiograf\+::wloz\+\_\+\+Baterie (\begin{DoxyParamCaption}\item[{int}]{sztuki }\end{DoxyParamCaption})}
+
+
+
+wklada baterie do urzadzenia 
+
+\mbox{\label{class_elektrokardiograf_aea0ea515c89cddbdde78a2edef5dc34b}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!wylacz@{wylacz}}
+\index{wylacz@{wylacz}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{wylacz()}
+{\footnotesize\ttfamily void Elektrokardiograf\+::wylacz (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+wirtualna metoda wylaczenia przyrzadu 
+
+
+
+Implements \textbf{ Aparatmedyczny} \doxyref{}{p.}{class_aparatmedyczny_a0f6e8f2d4656bc258805e230ad4563d0}.
+
+
+
+Reimplemented in \textbf{ Smartekg} \doxyref{}{p.}{class_smartekg_a40cb07132a4139745bdf1cd31e2fd080}.
+
+\mbox{\label{class_elektrokardiograf_a7e9dc34e6867890ed9879bf5dcb5acfb}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!zapisz\+\_\+do\+\_\+pliku@{zapisz\+\_\+do\+\_\+pliku}}
+\index{zapisz\+\_\+do\+\_\+pliku@{zapisz\+\_\+do\+\_\+pliku}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{zapisz\+\_\+do\+\_\+pliku()}
+{\footnotesize\ttfamily void Elektrokardiograf\+::zapisz\+\_\+do\+\_\+pliku (\begin{DoxyParamCaption}\item[{string}]{s,  }\item[{int}]{zapis }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+zapisywanie do pliku 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & -\/ nazwa pliku \\
+\hline
+{\em int} & -\/ decyduje o dopisaniu do pliku lub nadpisaniu \\
+\hline
+\end{DoxyParams}
+
+
+Implements \textbf{ Aparatmedyczny} \doxyref{}{p.}{class_aparatmedyczny_aa81d3a1b324550cd90fba34d1096f772}.
+
+
+
+Reimplemented in \textbf{ Smartekg} \doxyref{}{p.}{class_smartekg_afb055dc43e7012d04e8764507860ffad}.
+
+\mbox{\label{class_elektrokardiograf_a4f43e5e6a427d074ee3a5acff7d96e14}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!zrobbadanie@{zrobbadanie}}
+\index{zrobbadanie@{zrobbadanie}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{zrobbadanie()}
+{\footnotesize\ttfamily void Elektrokardiograf\+::zrobbadanie (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+metoda \char`\"{}symulujaca\char`\"{} badania 
+
+
+
+Implements \textbf{ Aparatmedyczny} \doxyref{}{p.}{class_aparatmedyczny_adbdf7a6290c67862387d1cda2f0d9173}.
+
+
+
+Reimplemented in \textbf{ Smartekg} \doxyref{}{p.}{class_smartekg_a80a5495364b751184519215407ba8559}.
+
+\mbox{\label{class_elektrokardiograf_a659d2860924ba13b2d0aff689d8e28e6}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!zwroc\+\_\+\+Drukarke@{zwroc\+\_\+\+Drukarke}}
+\index{zwroc\+\_\+\+Drukarke@{zwroc\+\_\+\+Drukarke}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{zwroc\+\_\+\+Drukarke()}
+{\footnotesize\ttfamily \textbf{ Drukarka}$\ast$ Elektrokardiograf\+::zwroc\+\_\+\+Drukarke (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+zwraca drukarke podobiekt Elektrokardiografu /return zwraca wskaznik na drukarke 
+
+\mbox{\label{class_elektrokardiograf_ad9e2a8ebaf0d5204d5c8c4663069a4d6}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!zwroc\+\_\+\+Liczbe\+\_\+\+Obiektow@{zwroc\+\_\+\+Liczbe\+\_\+\+Obiektow}}
+\index{zwroc\+\_\+\+Liczbe\+\_\+\+Obiektow@{zwroc\+\_\+\+Liczbe\+\_\+\+Obiektow}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{zwroc\+\_\+\+Liczbe\+\_\+\+Obiektow()}
+{\footnotesize\ttfamily static int Elektrokardiograf\+::zwroc\+\_\+\+Liczbe\+\_\+\+Obiektow (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [static]}}
+
+
+
+statyczna skladowa /return Zwraca iloœæ obiektow 
+
+\mbox{\label{class_elektrokardiograf_a6129e08563cbad6fff62658cd8cbc5b7}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!zwroc\+\_\+\+Powierzchnie@{zwroc\+\_\+\+Powierzchnie}}
+\index{zwroc\+\_\+\+Powierzchnie@{zwroc\+\_\+\+Powierzchnie}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{zwroc\+\_\+\+Powierzchnie()}
+{\footnotesize\ttfamily double Elektrokardiograf\+::zwroc\+\_\+\+Powierzchnie (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+funkcja zwraca powierzchnie /return zwraca wynik w double 
+
+\mbox{\label{class_elektrokardiograf_af64e5bf8b4f5293c7063b48dcc1e191a}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!zwroc\+\_\+\+Wage@{zwroc\+\_\+\+Wage}}
+\index{zwroc\+\_\+\+Wage@{zwroc\+\_\+\+Wage}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{zwroc\+\_\+\+Wage()}
+{\footnotesize\ttfamily double Elektrokardiograf\+::zwroc\+\_\+\+Wage (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+funkcja zwraca wage /return zwraca wynik w double 
+
+\mbox{\label{class_elektrokardiograf_a32cb306a39462a50e5eb27c7eb673fc4}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!zwroc\+\_\+\+Wyswietlacz@{zwroc\+\_\+\+Wyswietlacz}}
+\index{zwroc\+\_\+\+Wyswietlacz@{zwroc\+\_\+\+Wyswietlacz}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{zwroc\+\_\+\+Wyswietlacz()}
+{\footnotesize\ttfamily \textbf{ Wyswietlacz}$\ast$ Elektrokardiograf\+::zwroc\+\_\+\+Wyswietlacz (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+zwraca wyswietlacz podobiekt Elektrokardiografu /return zwraca wskaznik na drukarke 
+
+
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\label{class_elektrokardiograf_a10836bab7baab06a7a2a5d276b1eee15}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{operator$<$$<$}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{wyjscie,  }\item[{const \textbf{ Elektrokardiograf} \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+zaprzyjazniona funkcja do wypisania obiektu za pomoca cout 
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\label{class_elektrokardiograf_aca6f454b6817213106933e061db14628}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!bateria@{bateria}}
+\index{bateria@{bateria}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{bateria}
+{\footnotesize\ttfamily vector$<$\textbf{ Bateria}$\ast$$>$ Elektrokardiograf\+::bateria\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+$>$podobiekt bateria 
+
+\mbox{\label{class_elektrokardiograf_a0cd94c208110b3be5cf00e8bb4ca6fa5}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!czas\+\_\+pomiaru@{czas\+\_\+pomiaru}}
+\index{czas\+\_\+pomiaru@{czas\+\_\+pomiaru}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{czas\+\_\+pomiaru}
+{\footnotesize\ttfamily double Elektrokardiograf\+::czas\+\_\+pomiaru\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+$>$czas pomiaru 
+
+\mbox{\label{class_elektrokardiograf_afba139d7468fbd9f13505fa0877cf286}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!drukarka@{drukarka}}
+\index{drukarka@{drukarka}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{drukarka}
+{\footnotesize\ttfamily \textbf{ Drukarka} Elektrokardiograf\+::drukarka\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+$>$podobiekt drukarka 
+
+\mbox{\label{class_elektrokardiograf_a96589f238ff0be38b7201fc4f82ff2f7}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!dziala@{dziala}}
+\index{dziala@{dziala}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{dziala}
+{\footnotesize\ttfamily bool Elektrokardiograf\+::dziala\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+$>$czy ekg wlaczone 
+
+\mbox{\label{class_elektrokardiograf_a43f5b38916de61b6771018d5921711e5}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!model@{model}}
+\index{model@{model}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{model}
+{\footnotesize\ttfamily string Elektrokardiograf\+::model\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+$>$model 
+
+\mbox{\label{class_elektrokardiograf_a92c3c2e00c0565ed15425c639e576a6a}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!producent@{producent}}
+\index{producent@{producent}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{producent}
+{\footnotesize\ttfamily string Elektrokardiograf\+::producent\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+$>$producent 
+
+\mbox{\label{class_elektrokardiograf_a910aaecae3b43b63a157c386dc27bcaa}} 
+\index{Elektrokardiograf@{Elektrokardiograf}!wyswietlacz@{wyswietlacz}}
+\index{wyswietlacz@{wyswietlacz}!Elektrokardiograf@{Elektrokardiograf}}
+\subsubsection{wyswietlacz}
+{\footnotesize\ttfamily \textbf{ Wyswietlacz} Elektrokardiograf\+::wyswietlacz\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+$>$podobiekt wyswietlacz 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ elektrokardiograf.\+h}\item 
+\textbf{ elektrokardiograf.\+cpp}\end{DoxyCompactItemize}

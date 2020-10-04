@@ -1,0 +1,218 @@
+\section{Termometr Class Reference}
+\label{class_termometr}\index{Termometr@{Termometr}}
+
+
+\doxyref{Termometr}{p.}{class_termometr} ,dziedziczacy po klasie \doxyref{Aparatmedyczny}{p.}{class_aparatmedyczny}.  
+
+
+
+
+{\ttfamily \#include $<$termometr.\+h$>$}
+
+Inheritance diagram for Termometr\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_termometr}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ wlacz} ()
+\begin{DoxyCompactList}\small\item\em wirtualna metoda wlaczenia przyrzadu \end{DoxyCompactList}\item 
+void \textbf{ wylacz} ()
+\begin{DoxyCompactList}\small\item\em wirtualna metoda wylaczenia przyrzadu \end{DoxyCompactList}\item 
+void \textbf{ zrobbadanie} ()
+\begin{DoxyCompactList}\small\item\em metoda \char`\"{}symulujaca\char`\"{} badania \end{DoxyCompactList}\item 
+void \textbf{ uzupelnij\+\_\+dane} (int, double, double, double, int, string)
+\begin{DoxyCompactList}\small\item\em nadawanie parametrow \end{DoxyCompactList}\item 
+\textbf{ Termometr} ()
+\begin{DoxyCompactList}\small\item\em konstruktor domyslny \end{DoxyCompactList}\item 
+\textbf{ Termometr} (int, bool, string)
+\begin{DoxyCompactList}\small\item\em konstruktor z parametrami \end{DoxyCompactList}\item 
+\textbf{ $\sim$\+Termometr} ()
+\begin{DoxyCompactList}\small\item\em destruktor \end{DoxyCompactList}\item 
+void \textbf{ odczyt\+\_\+z\+\_\+pliku} (string)
+\begin{DoxyCompactList}\small\item\em czytanie z pliku \end{DoxyCompactList}\item 
+void \textbf{ zapisz\+\_\+do\+\_\+pliku} (string, int)
+\begin{DoxyCompactList}\small\item\em zapisywanie do pliku \end{DoxyCompactList}\item 
+void \textbf{ operator$<$$<$} (string s)
+\begin{DoxyCompactList}\small\item\em operatory do zapisu w pliku przyjmujace jego nazwe \end{DoxyCompactList}\item 
+void \textbf{ operator$>$$>$} (string s)
+\begin{DoxyCompactList}\small\item\em operatory do odczytu z pliku przyjmujace jego nazwe \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \textbf{ operator$<$$<$} (ostream \&wyjscie, const \textbf{ Termometr} \&s)
+\begin{DoxyCompactList}\small\item\em zaprzyjazniona funkcja do wypisania obiektu za pomoca cout \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+\doxyref{Termometr}{p.}{class_termometr} ,dziedziczacy po klasie \doxyref{Aparatmedyczny}{p.}{class_aparatmedyczny}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_termometr_a73dfb1aef59ff906433c0966728ca8f1}} 
+\index{Termometr@{Termometr}!Termometr@{Termometr}}
+\index{Termometr@{Termometr}!Termometr@{Termometr}}
+\subsubsection{Termometr()\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Termometr\+::\+Termometr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+konstruktor domyslny 
+
+\mbox{\label{class_termometr_a6a5981fa5ff2bd1545121241ae5c0c6c}} 
+\index{Termometr@{Termometr}!Termometr@{Termometr}}
+\index{Termometr@{Termometr}!Termometr@{Termometr}}
+\subsubsection{Termometr()\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Termometr\+::\+Termometr (\begin{DoxyParamCaption}\item[{int}]{czas,  }\item[{bool}]{dz,  }\item[{string}]{mod }\end{DoxyParamCaption})}
+
+
+
+konstruktor z parametrami 
+
+\mbox{\label{class_termometr_ac388fb0a0ebba9a70fa620c43da6cc56}} 
+\index{Termometr@{Termometr}!````~Termometr@{$\sim$\+Termometr}}
+\index{````~Termometr@{$\sim$\+Termometr}!Termometr@{Termometr}}
+\subsubsection{$\sim$\+Termometr()}
+{\footnotesize\ttfamily Termometr\+::$\sim$\+Termometr (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+destruktor 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{class_termometr_a42a1dab82d6f7c1adba8b03b01d132d8}} 
+\index{Termometr@{Termometr}!odczyt\+\_\+z\+\_\+pliku@{odczyt\+\_\+z\+\_\+pliku}}
+\index{odczyt\+\_\+z\+\_\+pliku@{odczyt\+\_\+z\+\_\+pliku}!Termometr@{Termometr}}
+\subsubsection{odczyt\+\_\+z\+\_\+pliku()}
+{\footnotesize\ttfamily void Termometr\+::odczyt\+\_\+z\+\_\+pliku (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+czytanie z pliku 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & -\/ nazwa pliku \\
+\hline
+\end{DoxyParams}
+
+
+Implements \textbf{ Aparatmedyczny} \doxyref{}{p.}{class_aparatmedyczny_a5300ce8466293b738da4f2eb5ed7b233}.
+
+\mbox{\label{class_termometr_ae3759a51f581779a5b61efa447534a58}} 
+\index{Termometr@{Termometr}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Termometr@{Termometr}}
+\subsubsection{operator$<$$<$()}
+{\footnotesize\ttfamily void Termometr\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})}
+
+
+
+operatory do zapisu w pliku przyjmujace jego nazwe 
+
+\mbox{\label{class_termometr_a96f6e3d168dd905e6f5900bbbf66fc94}} 
+\index{Termometr@{Termometr}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Termometr@{Termometr}}
+\subsubsection{operator$>$$>$()}
+{\footnotesize\ttfamily void Termometr\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})}
+
+
+
+operatory do odczytu z pliku przyjmujace jego nazwe 
+
+\mbox{\label{class_termometr_a67bdf95b9163faf32c5261abf13e7b0b}} 
+\index{Termometr@{Termometr}!uzupelnij\+\_\+dane@{uzupelnij\+\_\+dane}}
+\index{uzupelnij\+\_\+dane@{uzupelnij\+\_\+dane}!Termometr@{Termometr}}
+\subsubsection{uzupelnij\+\_\+dane()}
+{\footnotesize\ttfamily void Termometr\+::uzupelnij\+\_\+dane (\begin{DoxyParamCaption}\item[{int}]{qw,  }\item[{double}]{we,  }\item[{double}]{er,  }\item[{double}]{rt,  }\item[{int}]{a,  }\item[{string}]{c }\end{DoxyParamCaption})}
+
+
+
+nadawanie parametrow 
+
+Parametry to kolejno atrybuty obiektu tej klasy \mbox{\label{class_termometr_a25df4488ebce81d7c92d2c66ca02fb6d}} 
+\index{Termometr@{Termometr}!wlacz@{wlacz}}
+\index{wlacz@{wlacz}!Termometr@{Termometr}}
+\subsubsection{wlacz()}
+{\footnotesize\ttfamily void Termometr\+::wlacz (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+wirtualna metoda wlaczenia przyrzadu 
+
+
+
+Implements \textbf{ Aparatmedyczny} \doxyref{}{p.}{class_aparatmedyczny_a303cd2ab42aa4a4a29bb59d685573c78}.
+
+\mbox{\label{class_termometr_ac13dc274e2f18f76ff8c1eb60f793a20}} 
+\index{Termometr@{Termometr}!wylacz@{wylacz}}
+\index{wylacz@{wylacz}!Termometr@{Termometr}}
+\subsubsection{wylacz()}
+{\footnotesize\ttfamily void Termometr\+::wylacz (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+wirtualna metoda wylaczenia przyrzadu 
+
+
+
+Implements \textbf{ Aparatmedyczny} \doxyref{}{p.}{class_aparatmedyczny_a0f6e8f2d4656bc258805e230ad4563d0}.
+
+\mbox{\label{class_termometr_a852973a522848a9fbbd95361494525a4}} 
+\index{Termometr@{Termometr}!zapisz\+\_\+do\+\_\+pliku@{zapisz\+\_\+do\+\_\+pliku}}
+\index{zapisz\+\_\+do\+\_\+pliku@{zapisz\+\_\+do\+\_\+pliku}!Termometr@{Termometr}}
+\subsubsection{zapisz\+\_\+do\+\_\+pliku()}
+{\footnotesize\ttfamily void Termometr\+::zapisz\+\_\+do\+\_\+pliku (\begin{DoxyParamCaption}\item[{string}]{s,  }\item[{int}]{zapis }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+zapisywanie do pliku 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & -\/ nazwa pliku \\
+\hline
+{\em int} & -\/ decyduje o dopisaniu do pliku lub nadpisaniu \\
+\hline
+\end{DoxyParams}
+
+
+Implements \textbf{ Aparatmedyczny} \doxyref{}{p.}{class_aparatmedyczny_aa81d3a1b324550cd90fba34d1096f772}.
+
+\mbox{\label{class_termometr_acd74b1f25bb4af260d5f4f9d6baf4921}} 
+\index{Termometr@{Termometr}!zrobbadanie@{zrobbadanie}}
+\index{zrobbadanie@{zrobbadanie}!Termometr@{Termometr}}
+\subsubsection{zrobbadanie()}
+{\footnotesize\ttfamily void Termometr\+::zrobbadanie (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+metoda \char`\"{}symulujaca\char`\"{} badania 
+
+
+
+Implements \textbf{ Aparatmedyczny} \doxyref{}{p.}{class_aparatmedyczny_adbdf7a6290c67862387d1cda2f0d9173}.
+
+
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\label{class_termometr_aa076a790576f7719b5dba864120a1b44}} 
+\index{Termometr@{Termometr}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Termometr@{Termometr}}
+\subsubsection{operator$<$$<$}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{wyjscie,  }\item[{const \textbf{ Termometr} \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+zaprzyjazniona funkcja do wypisania obiektu za pomoca cout 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ termometr.\+h}\item 
+\textbf{ termometr.\+cpp}\end{DoxyCompactItemize}

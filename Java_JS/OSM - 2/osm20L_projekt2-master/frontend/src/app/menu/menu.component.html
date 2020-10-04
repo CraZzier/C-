@@ -1,0 +1,26 @@
+<section id="menu">
+    <nav id="navmain" class="container">
+        <ul class="ulmain">
+            <li>
+                <a [routerLink]="['/zarejestruj']">
+                    Rejestracja
+                </a>
+            </li>
+            <li>
+                <a (click)=" changeLoc( 'profil') ">
+                    Profil
+                </a>
+            </li>
+            <li>
+                <a (click)="changeLoc( 'dodaj') ">
+                    Dodaj
+                </a>
+            </li>
+            <li>
+                <a (click)="changeLoc('badania') ">
+                    Badanie
+                </a>
+            </li>
+        </ul>
+    </nav>
+</section>

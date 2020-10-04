@@ -1,0 +1,206 @@
+\section{Smartekg Class Reference}
+\label{class_smartekg}\index{Smartekg@{Smartekg}}
+
+
+Klasa pochodna Elektrokardiografu.  
+
+
+
+
+{\ttfamily \#include $<$smartekg.\+h$>$}
+
+Inheritance diagram for Smartekg\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_smartekg}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Smartekg} ()
+\begin{DoxyCompactList}\small\item\em konstruktor domyslny \end{DoxyCompactList}\item 
+\textbf{ $\sim$\+Smartekg} ()
+\begin{DoxyCompactList}\small\item\em destruktor domyslny \end{DoxyCompactList}\item 
+void \textbf{ wlacz} ()
+\begin{DoxyCompactList}\small\item\em wirtualna metoda wlaczenia przyrzadu \end{DoxyCompactList}\item 
+void \textbf{ wylacz} ()
+\begin{DoxyCompactList}\small\item\em wirtualna metoda wylaczenia przyrzadu \end{DoxyCompactList}\item 
+void \textbf{ zrobbadanie} ()
+\begin{DoxyCompactList}\small\item\em metoda \char`\"{}symulujaca\char`\"{} badania \end{DoxyCompactList}\item 
+void \textbf{ ustaw} (bool, bool, bool)
+\begin{DoxyCompactList}\small\item\em nadawanie parametrow \end{DoxyCompactList}\item 
+void \textbf{ odczyt\+\_\+z\+\_\+pliku} (string)
+\begin{DoxyCompactList}\small\item\em czytanie z pliku \end{DoxyCompactList}\item 
+void \textbf{ zapisz\+\_\+do\+\_\+pliku} (string, int)
+\begin{DoxyCompactList}\small\item\em zapisywanie do pliku \end{DoxyCompactList}\item 
+void \textbf{ operator$<$$<$} (string s)
+\begin{DoxyCompactList}\small\item\em operatory do zapisu w pliku przyjmujace jego nazwe \end{DoxyCompactList}\item 
+void \textbf{ operator$>$$>$} (string s)
+\begin{DoxyCompactList}\small\item\em operatory do odczytu z pliku przyjmujace jego nazwe \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \textbf{ operator$<$$<$} (ostream \&wyjscie, const \textbf{ Smartekg} \&s)
+\begin{DoxyCompactList}\small\item\em zaprzyjazniona funkcja do wypisania obiektu za pomoca cout \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Klasa pochodna Elektrokardiografu. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_smartekg_a82c28ed50e3117feea5f23c0cb9668ce}} 
+\index{Smartekg@{Smartekg}!Smartekg@{Smartekg}}
+\index{Smartekg@{Smartekg}!Smartekg@{Smartekg}}
+\subsubsection{Smartekg()}
+{\footnotesize\ttfamily Smartekg\+::\+Smartekg (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+konstruktor domyslny 
+
+\mbox{\label{class_smartekg_afa82307ee5cad4bd96809ba1be9b4d3d}} 
+\index{Smartekg@{Smartekg}!````~Smartekg@{$\sim$\+Smartekg}}
+\index{````~Smartekg@{$\sim$\+Smartekg}!Smartekg@{Smartekg}}
+\subsubsection{$\sim$\+Smartekg()}
+{\footnotesize\ttfamily Smartekg\+::$\sim$\+Smartekg (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+destruktor domyslny 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{class_smartekg_a96fe1adb8c11601eefafe085ead3c3d1}} 
+\index{Smartekg@{Smartekg}!odczyt\+\_\+z\+\_\+pliku@{odczyt\+\_\+z\+\_\+pliku}}
+\index{odczyt\+\_\+z\+\_\+pliku@{odczyt\+\_\+z\+\_\+pliku}!Smartekg@{Smartekg}}
+\subsubsection{odczyt\+\_\+z\+\_\+pliku()}
+{\footnotesize\ttfamily void Smartekg\+::odczyt\+\_\+z\+\_\+pliku (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+czytanie z pliku 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & -\/ nazwa pliku \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \textbf{ Elektrokardiograf} \doxyref{}{p.}{class_elektrokardiograf_af934c2d3456229093c37310070638df2}.
+
+\mbox{\label{class_smartekg_ad4ebb0d3d69729f0ba0e04b066984713}} 
+\index{Smartekg@{Smartekg}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Smartekg@{Smartekg}}
+\subsubsection{operator$<$$<$()}
+{\footnotesize\ttfamily void Smartekg\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})}
+
+
+
+operatory do zapisu w pliku przyjmujace jego nazwe 
+
+\mbox{\label{class_smartekg_ac6898a9a2fc785c40211f2b1a5220534}} 
+\index{Smartekg@{Smartekg}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Smartekg@{Smartekg}}
+\subsubsection{operator$>$$>$()}
+{\footnotesize\ttfamily void Smartekg\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})}
+
+
+
+operatory do odczytu z pliku przyjmujace jego nazwe 
+
+\mbox{\label{class_smartekg_a1f3461e64d38bea214caaa157315be65}} 
+\index{Smartekg@{Smartekg}!ustaw@{ustaw}}
+\index{ustaw@{ustaw}!Smartekg@{Smartekg}}
+\subsubsection{ustaw()}
+{\footnotesize\ttfamily void Smartekg\+::ustaw (\begin{DoxyParamCaption}\item[{bool}]{blue,  }\item[{bool}]{net,  }\item[{bool}]{usb }\end{DoxyParamCaption})}
+
+
+
+nadawanie parametrow 
+
+\mbox{\label{class_smartekg_ab976b0a43ff21e254af74a29b4fc8688}} 
+\index{Smartekg@{Smartekg}!wlacz@{wlacz}}
+\index{wlacz@{wlacz}!Smartekg@{Smartekg}}
+\subsubsection{wlacz()}
+{\footnotesize\ttfamily void Smartekg\+::wlacz (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+wirtualna metoda wlaczenia przyrzadu 
+
+
+
+Reimplemented from \textbf{ Elektrokardiograf} \doxyref{}{p.}{class_elektrokardiograf_a78b8311e31aa24ab92998e8105e72dd1}.
+
+\mbox{\label{class_smartekg_a40cb07132a4139745bdf1cd31e2fd080}} 
+\index{Smartekg@{Smartekg}!wylacz@{wylacz}}
+\index{wylacz@{wylacz}!Smartekg@{Smartekg}}
+\subsubsection{wylacz()}
+{\footnotesize\ttfamily void Smartekg\+::wylacz (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+wirtualna metoda wylaczenia przyrzadu 
+
+
+
+Reimplemented from \textbf{ Elektrokardiograf} \doxyref{}{p.}{class_elektrokardiograf_aea0ea515c89cddbdde78a2edef5dc34b}.
+
+\mbox{\label{class_smartekg_afb055dc43e7012d04e8764507860ffad}} 
+\index{Smartekg@{Smartekg}!zapisz\+\_\+do\+\_\+pliku@{zapisz\+\_\+do\+\_\+pliku}}
+\index{zapisz\+\_\+do\+\_\+pliku@{zapisz\+\_\+do\+\_\+pliku}!Smartekg@{Smartekg}}
+\subsubsection{zapisz\+\_\+do\+\_\+pliku()}
+{\footnotesize\ttfamily void Smartekg\+::zapisz\+\_\+do\+\_\+pliku (\begin{DoxyParamCaption}\item[{string}]{s,  }\item[{int}]{zapis }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+zapisywanie do pliku 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & -\/ nazwa pliku \\
+\hline
+{\em int} & -\/ decyduje o dopisaniu do pliku lub nadpisaniu \\
+\hline
+\end{DoxyParams}
+
+
+Reimplemented from \textbf{ Elektrokardiograf} \doxyref{}{p.}{class_elektrokardiograf_a7e9dc34e6867890ed9879bf5dcb5acfb}.
+
+\mbox{\label{class_smartekg_a80a5495364b751184519215407ba8559}} 
+\index{Smartekg@{Smartekg}!zrobbadanie@{zrobbadanie}}
+\index{zrobbadanie@{zrobbadanie}!Smartekg@{Smartekg}}
+\subsubsection{zrobbadanie()}
+{\footnotesize\ttfamily void Smartekg\+::zrobbadanie (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+metoda \char`\"{}symulujaca\char`\"{} badania 
+
+
+
+Reimplemented from \textbf{ Elektrokardiograf} \doxyref{}{p.}{class_elektrokardiograf_a4f43e5e6a427d074ee3a5acff7d96e14}.
+
+
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\label{class_smartekg_a7d76f0593b32a68a973a114a28737c0d}} 
+\index{Smartekg@{Smartekg}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Smartekg@{Smartekg}}
+\subsubsection{operator$<$$<$}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{wyjscie,  }\item[{const \textbf{ Smartekg} \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+zaprzyjazniona funkcja do wypisania obiektu za pomoca cout 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ smartekg.\+h}\item 
+\textbf{ smartekg.\+cpp}\end{DoxyCompactItemize}

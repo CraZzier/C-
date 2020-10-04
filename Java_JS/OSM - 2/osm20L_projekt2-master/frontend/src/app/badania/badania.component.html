@@ -1,0 +1,25 @@
+<div class="">
+    <div class="inf-window-title">
+        <div class="inf-window-title-store">
+            <div class="inf-window-title-store-text">
+                <h5>Badania</h5>
+            </div>
+        </div>
+    </div>
+    <div class="container obr">
+        <div class="col-md-12">
+            <div class="inf-window-cont-box" id="trenerzy">
+                <div class="inf-window-cont-box-description">
+                    Pliki
+                </div>
+                <div class="inf-window-box-data">
+                    <div *ngFor="let im of imgstrans" class=" single-li-data ">
+                        <button (click)="open($event);" attr.data-path="{{im.fullPath}}" type=" button " class="badanie btn-danger form-control ">
+                            {{im.name}}
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

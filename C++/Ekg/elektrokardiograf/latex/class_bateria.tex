@@ -1,0 +1,143 @@
+\section{Bateria Class Reference}
+\label{class_bateria}\index{Bateria@{Bateria}}
+
+
+\doxyref{Bateria}{p.}{class_bateria} podobiekt E\+KG.  
+
+
+
+
+{\ttfamily \#include $<$bateria.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Bateria} ()
+\begin{DoxyCompactList}\small\item\em konstruktor domyslny \end{DoxyCompactList}\item 
+void \textbf{ zdefiniuj\+\_\+baterie} (int, int, double, string)
+\begin{DoxyCompactList}\small\item\em nadanie atrybutow obiektowi \end{DoxyCompactList}\item 
+\textbf{ $\sim$\+Bateria} ()
+\begin{DoxyCompactList}\small\item\em destruktor \doxyref{Bateria}{p.}{class_bateria} \end{DoxyCompactList}\item 
+void \textbf{ odczyt\+\_\+z\+\_\+pliku} (string)
+\begin{DoxyCompactList}\small\item\em czytanie z pliku \end{DoxyCompactList}\item 
+void \textbf{ zapisz\+\_\+do\+\_\+pliku} (string, int)
+\begin{DoxyCompactList}\small\item\em zapisywanie do pliku \end{DoxyCompactList}\item 
+void \textbf{ operator$<$$<$} (string s)
+\begin{DoxyCompactList}\small\item\em operatory do zapisu w pliku przyjmujace jego nazwe \end{DoxyCompactList}\item 
+void \textbf{ operator$>$$>$} (string s)
+\begin{DoxyCompactList}\small\item\em operatory do odczytu z pliku przyjmujace jego nazwe \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+ostream \& \textbf{ operator$<$$<$} (ostream \&wyjscie, const \textbf{ Bateria} \&s)
+\begin{DoxyCompactList}\small\item\em zaprzyjazniona funkcja do wypisania obiektu za pomoca cout \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\doxyref{Bateria}{p.}{class_bateria} podobiekt E\+KG. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_bateria_ad63fe61cc7af28c0bceea78f21097d6a}} 
+\index{Bateria@{Bateria}!Bateria@{Bateria}}
+\index{Bateria@{Bateria}!Bateria@{Bateria}}
+\subsubsection{Bateria()}
+{\footnotesize\ttfamily Bateria\+::\+Bateria (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+konstruktor domyslny 
+
+\mbox{\label{class_bateria_ad3445064f0e261a342de2c1684ee3106}} 
+\index{Bateria@{Bateria}!````~Bateria@{$\sim$\+Bateria}}
+\index{````~Bateria@{$\sim$\+Bateria}!Bateria@{Bateria}}
+\subsubsection{$\sim$\+Bateria()}
+{\footnotesize\ttfamily Bateria\+::$\sim$\+Bateria (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+destruktor \doxyref{Bateria}{p.}{class_bateria} 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{class_bateria_ab07ed9d5733e40dbd567bddc076ad55a}} 
+\index{Bateria@{Bateria}!odczyt\+\_\+z\+\_\+pliku@{odczyt\+\_\+z\+\_\+pliku}}
+\index{odczyt\+\_\+z\+\_\+pliku@{odczyt\+\_\+z\+\_\+pliku}!Bateria@{Bateria}}
+\subsubsection{odczyt\+\_\+z\+\_\+pliku()}
+{\footnotesize\ttfamily void Bateria\+::odczyt\+\_\+z\+\_\+pliku (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})}
+
+
+
+czytanie z pliku 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & -\/ nazwa pliku \\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_bateria_affca3230d7eb0cb04e206962f40ef7e6}} 
+\index{Bateria@{Bateria}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Bateria@{Bateria}}
+\subsubsection{operator$<$$<$()}
+{\footnotesize\ttfamily void Bateria\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})}
+
+
+
+operatory do zapisu w pliku przyjmujace jego nazwe 
+
+\mbox{\label{class_bateria_a6a5856b87436f0463bf65a4119482dd7}} 
+\index{Bateria@{Bateria}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Bateria@{Bateria}}
+\subsubsection{operator$>$$>$()}
+{\footnotesize\ttfamily void Bateria\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})}
+
+
+
+operatory do odczytu z pliku przyjmujace jego nazwe 
+
+\mbox{\label{class_bateria_a600e9c21a2605e2b493b8589c21f0467}} 
+\index{Bateria@{Bateria}!zapisz\+\_\+do\+\_\+pliku@{zapisz\+\_\+do\+\_\+pliku}}
+\index{zapisz\+\_\+do\+\_\+pliku@{zapisz\+\_\+do\+\_\+pliku}!Bateria@{Bateria}}
+\subsubsection{zapisz\+\_\+do\+\_\+pliku()}
+{\footnotesize\ttfamily void Bateria\+::zapisz\+\_\+do\+\_\+pliku (\begin{DoxyParamCaption}\item[{string}]{s,  }\item[{int}]{zapis }\end{DoxyParamCaption})}
+
+
+
+zapisywanie do pliku 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & -\/ nazwa pliku \\
+\hline
+{\em int} & -\/ decyduje o dopisaniu do pliku lub nadpisaniu \\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_bateria_ae61765808c0210cec772272f3d1d84d9}} 
+\index{Bateria@{Bateria}!zdefiniuj\+\_\+baterie@{zdefiniuj\+\_\+baterie}}
+\index{zdefiniuj\+\_\+baterie@{zdefiniuj\+\_\+baterie}!Bateria@{Bateria}}
+\subsubsection{zdefiniuj\+\_\+baterie()}
+{\footnotesize\ttfamily void Bateria\+::zdefiniuj\+\_\+baterie (\begin{DoxyParamCaption}\item[{int}]{p,  }\item[{int}]{cen,  }\item[{double}]{nap,  }\item[{string}]{pro }\end{DoxyParamCaption})}
+
+
+
+nadanie atrybutow obiektowi 
+
+Parametry to kolejno atrybuty obiektu tej klasy 
+
+\subsection{Friends And Related Function Documentation}
+\mbox{\label{class_bateria_a47035e47d5dc1f14ae25b6033bf175dc}} 
+\index{Bateria@{Bateria}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Bateria@{Bateria}}
+\subsubsection{operator$<$$<$}
+{\footnotesize\ttfamily ostream\& operator$<$$<$ (\begin{DoxyParamCaption}\item[{ostream \&}]{wyjscie,  }\item[{const \textbf{ Bateria} \&}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+zaprzyjazniona funkcja do wypisania obiektu za pomoca cout 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ bateria.\+h}\item 
+\textbf{ bateria.\+cpp}\end{DoxyCompactItemize}

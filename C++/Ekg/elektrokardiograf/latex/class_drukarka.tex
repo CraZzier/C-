@@ -1,0 +1,161 @@
+\section{Drukarka Class Reference}
+\label{class_drukarka}\index{Drukarka@{Drukarka}}
+
+
+Podobiekt Elektrokardiografu.  
+
+
+
+
+{\ttfamily \#include $<$drukarka.\+h$>$}
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\textbf{ Drukarka} ()
+\begin{DoxyCompactList}\small\item\em kosntruktor domyœ³ny \end{DoxyCompactList}\item 
+void \textbf{ ustaw\+\_\+drukarke} (int, int, int, double, string, int)
+\begin{DoxyCompactList}\small\item\em ustawianie parametrow drukarki odpowiednio w kolejnosci \end{DoxyCompactList}\item 
+void \textbf{ dodaj\+\_\+kartke} (string kolor)
+\begin{DoxyCompactList}\small\item\em funkcja dodajaca kartke do kolejki \end{DoxyCompactList}\item 
+void \textbf{ wydrukuj\+\_\+kartke} ()
+\begin{DoxyCompactList}\small\item\em funkcja drukujaca kartke \end{DoxyCompactList}\item 
+bool \textbf{ czypusta} ()
+\begin{DoxyCompactList}\small\item\em funkcja sprawdzajaca czy jest jakas kartka /return zwraca 1 jesli brak kartek, 0 -\/ jesli jakies sa \end{DoxyCompactList}\item 
+\textbf{ $\sim$\+Drukarka} ()
+\begin{DoxyCompactList}\small\item\em destruktor \end{DoxyCompactList}\item 
+void \textbf{ odczyt\+\_\+z\+\_\+pliku} (string)
+\begin{DoxyCompactList}\small\item\em czytanie z pliku \end{DoxyCompactList}\item 
+void \textbf{ zapisz\+\_\+do\+\_\+pliku} (string, int)
+\begin{DoxyCompactList}\small\item\em zapisywanie do pliku \end{DoxyCompactList}\item 
+void \textbf{ operator$<$$<$} (string s)
+\begin{DoxyCompactList}\small\item\em operatory do zapisu w pliku przyjmujace jego nazwe \end{DoxyCompactList}\item 
+void \textbf{ operator$>$$>$} (string s)
+\begin{DoxyCompactList}\small\item\em operatory do odczytu z pliku przyjmujace jego nazwe \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Podobiekt Elektrokardiografu. 
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\label{class_drukarka_aed4b71f0d650809ea61382a8db8bb41d}} 
+\index{Drukarka@{Drukarka}!Drukarka@{Drukarka}}
+\index{Drukarka@{Drukarka}!Drukarka@{Drukarka}}
+\subsubsection{Drukarka()}
+{\footnotesize\ttfamily Drukarka\+::\+Drukarka (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+kosntruktor domyœ³ny 
+
+\mbox{\label{class_drukarka_a056e3d77c9c294a0870aef831985bd4d}} 
+\index{Drukarka@{Drukarka}!````~Drukarka@{$\sim$\+Drukarka}}
+\index{````~Drukarka@{$\sim$\+Drukarka}!Drukarka@{Drukarka}}
+\subsubsection{$\sim$\+Drukarka()}
+{\footnotesize\ttfamily Drukarka\+::$\sim$\+Drukarka (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+destruktor 
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\label{class_drukarka_a1411bdffc307bda4156ff48f64db2cc5}} 
+\index{Drukarka@{Drukarka}!czypusta@{czypusta}}
+\index{czypusta@{czypusta}!Drukarka@{Drukarka}}
+\subsubsection{czypusta()}
+{\footnotesize\ttfamily bool Drukarka\+::czypusta (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+funkcja sprawdzajaca czy jest jakas kartka /return zwraca 1 jesli brak kartek, 0 -\/ jesli jakies sa 
+
+\mbox{\label{class_drukarka_ae30bf8712f26659417b3b06a7b8218cc}} 
+\index{Drukarka@{Drukarka}!dodaj\+\_\+kartke@{dodaj\+\_\+kartke}}
+\index{dodaj\+\_\+kartke@{dodaj\+\_\+kartke}!Drukarka@{Drukarka}}
+\subsubsection{dodaj\+\_\+kartke()}
+{\footnotesize\ttfamily void Drukarka\+::dodaj\+\_\+kartke (\begin{DoxyParamCaption}\item[{string}]{kolor }\end{DoxyParamCaption})}
+
+
+
+funkcja dodajaca kartke do kolejki 
+
+\mbox{\label{class_drukarka_a48627cf4f84fd13f833cebb99d5ce988}} 
+\index{Drukarka@{Drukarka}!odczyt\+\_\+z\+\_\+pliku@{odczyt\+\_\+z\+\_\+pliku}}
+\index{odczyt\+\_\+z\+\_\+pliku@{odczyt\+\_\+z\+\_\+pliku}!Drukarka@{Drukarka}}
+\subsubsection{odczyt\+\_\+z\+\_\+pliku()}
+{\footnotesize\ttfamily void Drukarka\+::odczyt\+\_\+z\+\_\+pliku (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})}
+
+
+
+czytanie z pliku 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & -\/ nazwa pliku \\
+\hline
+\end{DoxyParams}
+\mbox{\label{class_drukarka_a27bd0cbeea27ff58686601b30f75ab91}} 
+\index{Drukarka@{Drukarka}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!Drukarka@{Drukarka}}
+\subsubsection{operator$<$$<$()}
+{\footnotesize\ttfamily void Drukarka\+::operator$<$$<$ (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})}
+
+
+
+operatory do zapisu w pliku przyjmujace jego nazwe 
+
+\mbox{\label{class_drukarka_a2371a5f120008f8034b8e847f901d4a3}} 
+\index{Drukarka@{Drukarka}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!Drukarka@{Drukarka}}
+\subsubsection{operator$>$$>$()}
+{\footnotesize\ttfamily void Drukarka\+::operator$>$$>$ (\begin{DoxyParamCaption}\item[{string}]{s }\end{DoxyParamCaption})}
+
+
+
+operatory do odczytu z pliku przyjmujace jego nazwe 
+
+\mbox{\label{class_drukarka_aa3d728ca6084654f34811c74c7393411}} 
+\index{Drukarka@{Drukarka}!ustaw\+\_\+drukarke@{ustaw\+\_\+drukarke}}
+\index{ustaw\+\_\+drukarke@{ustaw\+\_\+drukarke}!Drukarka@{Drukarka}}
+\subsubsection{ustaw\+\_\+drukarke()}
+{\footnotesize\ttfamily void Drukarka\+::ustaw\+\_\+drukarke (\begin{DoxyParamCaption}\item[{int}]{a,  }\item[{int}]{b,  }\item[{int}]{c,  }\item[{double}]{d,  }\item[{string}]{e,  }\item[{int}]{f }\end{DoxyParamCaption})}
+
+
+
+ustawianie parametrow drukarki odpowiednio w kolejnosci 
+
+\mbox{\label{class_drukarka_aa0c1eae2aaff10fca59b3d20f7449c16}} 
+\index{Drukarka@{Drukarka}!wydrukuj\+\_\+kartke@{wydrukuj\+\_\+kartke}}
+\index{wydrukuj\+\_\+kartke@{wydrukuj\+\_\+kartke}!Drukarka@{Drukarka}}
+\subsubsection{wydrukuj\+\_\+kartke()}
+{\footnotesize\ttfamily void Drukarka\+::wydrukuj\+\_\+kartke (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+funkcja drukujaca kartke 
+
+\mbox{\label{class_drukarka_aba9bba44a8c07a47760840268bb96b05}} 
+\index{Drukarka@{Drukarka}!zapisz\+\_\+do\+\_\+pliku@{zapisz\+\_\+do\+\_\+pliku}}
+\index{zapisz\+\_\+do\+\_\+pliku@{zapisz\+\_\+do\+\_\+pliku}!Drukarka@{Drukarka}}
+\subsubsection{zapisz\+\_\+do\+\_\+pliku()}
+{\footnotesize\ttfamily void Drukarka\+::zapisz\+\_\+do\+\_\+pliku (\begin{DoxyParamCaption}\item[{string}]{s,  }\item[{int}]{zapis }\end{DoxyParamCaption})}
+
+
+
+zapisywanie do pliku 
+
+
+\begin{DoxyParams}{Parameters}
+{\em string} & -\/ nazwa pliku \\
+\hline
+{\em int} & -\/ decyduje o dopisaniu do pliku lub nadpisaniu \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\textbf{ drukarka.\+h}\item 
+\textbf{ drukarka.\+cpp}\end{DoxyCompactItemize}

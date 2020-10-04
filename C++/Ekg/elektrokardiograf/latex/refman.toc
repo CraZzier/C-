@@ -1,0 +1,164 @@
+\contentsline {chapter}{\numberline {1}Hierarchical Index}{1}
+\contentsline {section}{\numberline {1.1}Class Hierarchy}{1}
+\contentsline {chapter}{\numberline {2}Class Index}{3}
+\contentsline {section}{\numberline {2.1}Class List}{3}
+\contentsline {chapter}{\numberline {3}File Index}{5}
+\contentsline {section}{\numberline {3.1}File List}{5}
+\contentsline {chapter}{\numberline {4}Class Documentation}{7}
+\contentsline {section}{\numberline {4.1}Aparatmedyczny Class Reference}{7}
+\contentsline {subsection}{\numberline {4.1.1}Detailed Description}{8}
+\contentsline {subsection}{\numberline {4.1.2}Member Function Documentation}{8}
+\contentsline {subsubsection}{\numberline {4.1.2.1}odczyt\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}z\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}pliku()}{8}
+\contentsline {subsubsection}{\numberline {4.1.2.2}wlacz()}{8}
+\contentsline {subsubsection}{\numberline {4.1.2.3}wylacz()}{8}
+\contentsline {subsubsection}{\numberline {4.1.2.4}zapisz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}do\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}pliku()}{8}
+\contentsline {subsubsection}{\numberline {4.1.2.5}zrobbadanie()}{9}
+\contentsline {subsection}{\numberline {4.1.3}Member Data Documentation}{9}
+\contentsline {subsubsection}{\numberline {4.1.3.1}cena}{9}
+\contentsline {subsubsection}{\numberline {4.1.3.2}dlugosc}{9}
+\contentsline {subsubsection}{\numberline {4.1.3.3}szerokosc}{9}
+\contentsline {subsubsection}{\numberline {4.1.3.4}waga}{9}
+\contentsline {section}{\numberline {4.2}Bateria Class Reference}{10}
+\contentsline {subsection}{\numberline {4.2.1}Detailed Description}{10}
+\contentsline {subsection}{\numberline {4.2.2}Constructor \& Destructor Documentation}{10}
+\contentsline {subsubsection}{\numberline {4.2.2.1}Bateria()}{10}
+\contentsline {subsubsection}{\numberline {4.2.2.2}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Bateria()}{11}
+\contentsline {subsection}{\numberline {4.2.3}Member Function Documentation}{11}
+\contentsline {subsubsection}{\numberline {4.2.3.1}odczyt\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}z\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}pliku()}{11}
+\contentsline {subsubsection}{\numberline {4.2.3.2}operator$<$$<$()}{11}
+\contentsline {subsubsection}{\numberline {4.2.3.3}operator$>$$>$()}{11}
+\contentsline {subsubsection}{\numberline {4.2.3.4}zapisz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}do\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}pliku()}{11}
+\contentsline {subsubsection}{\numberline {4.2.3.5}zdefiniuj\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}baterie()}{12}
+\contentsline {subsection}{\numberline {4.2.4}Friends And Related Function Documentation}{12}
+\contentsline {subsubsection}{\numberline {4.2.4.1}operator$<$$<$}{12}
+\contentsline {section}{\numberline {4.3}Drukarka Class Reference}{12}
+\contentsline {subsection}{\numberline {4.3.1}Detailed Description}{13}
+\contentsline {subsection}{\numberline {4.3.2}Constructor \& Destructor Documentation}{13}
+\contentsline {subsubsection}{\numberline {4.3.2.1}Drukarka()}{13}
+\contentsline {subsubsection}{\numberline {4.3.2.2}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Drukarka()}{13}
+\contentsline {subsection}{\numberline {4.3.3}Member Function Documentation}{14}
+\contentsline {subsubsection}{\numberline {4.3.3.1}czypusta()}{14}
+\contentsline {subsubsection}{\numberline {4.3.3.2}dodaj\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}kartke()}{14}
+\contentsline {subsubsection}{\numberline {4.3.3.3}odczyt\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}z\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}pliku()}{14}
+\contentsline {subsubsection}{\numberline {4.3.3.4}operator$<$$<$()}{14}
+\contentsline {subsubsection}{\numberline {4.3.3.5}operator$>$$>$()}{14}
+\contentsline {subsubsection}{\numberline {4.3.3.6}ustaw\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}drukarke()}{15}
+\contentsline {subsubsection}{\numberline {4.3.3.7}wydrukuj\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}kartke()}{15}
+\contentsline {subsubsection}{\numberline {4.3.3.8}zapisz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}do\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}pliku()}{15}
+\contentsline {section}{\numberline {4.4}Elektrokardiograf Class Reference}{15}
+\contentsline {subsection}{\numberline {4.4.1}Detailed Description}{17}
+\contentsline {subsection}{\numberline {4.4.2}Constructor \& Destructor Documentation}{17}
+\contentsline {subsubsection}{\numberline {4.4.2.1}Elektrokardiograf()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/3]}}{17}
+\contentsline {subsubsection}{\numberline {4.4.2.2}Elektrokardiograf()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/3]}}{18}
+\contentsline {subsubsection}{\numberline {4.4.2.3}Elektrokardiograf()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [3/3]}}{18}
+\contentsline {subsubsection}{\numberline {4.4.2.4}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Elektrokardiograf()}{18}
+\contentsline {subsection}{\numberline {4.4.3}Member Function Documentation}{18}
+\contentsline {subsubsection}{\numberline {4.4.3.1}nadaj\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Wartosci()}{18}
+\contentsline {subsubsection}{\numberline {4.4.3.2}odczyt\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}z\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}pliku()}{18}
+\contentsline {subsubsection}{\numberline {4.4.3.3}operator int()}{19}
+\contentsline {subsubsection}{\numberline {4.4.3.4}operator++()}{19}
+\contentsline {subsubsection}{\numberline {4.4.3.5}operator$<$$<$()}{19}
+\contentsline {subsubsection}{\numberline {4.4.3.6}operator=()}{19}
+\contentsline {subsubsection}{\numberline {4.4.3.7}operator==()}{20}
+\contentsline {subsubsection}{\numberline {4.4.3.8}operator$>$$>$()}{20}
+\contentsline {subsubsection}{\numberline {4.4.3.9}operator[]()}{20}
+\contentsline {subsubsection}{\numberline {4.4.3.10}wlacz()}{20}
+\contentsline {subsubsection}{\numberline {4.4.3.11}wloz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Baterie()}{20}
+\contentsline {subsubsection}{\numberline {4.4.3.12}wylacz()}{21}
+\contentsline {subsubsection}{\numberline {4.4.3.13}zapisz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}do\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}pliku()}{21}
+\contentsline {subsubsection}{\numberline {4.4.3.14}zrobbadanie()}{21}
+\contentsline {subsubsection}{\numberline {4.4.3.15}zwroc\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Drukarke()}{21}
+\contentsline {subsubsection}{\numberline {4.4.3.16}zwroc\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Liczbe\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Obiektow()}{22}
+\contentsline {subsubsection}{\numberline {4.4.3.17}zwroc\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Powierzchnie()}{22}
+\contentsline {subsubsection}{\numberline {4.4.3.18}zwroc\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Wage()}{22}
+\contentsline {subsubsection}{\numberline {4.4.3.19}zwroc\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Wyswietlacz()}{22}
+\contentsline {subsection}{\numberline {4.4.4}Friends And Related Function Documentation}{22}
+\contentsline {subsubsection}{\numberline {4.4.4.1}operator$<$$<$}{22}
+\contentsline {subsection}{\numberline {4.4.5}Member Data Documentation}{22}
+\contentsline {subsubsection}{\numberline {4.4.5.1}bateria}{23}
+\contentsline {subsubsection}{\numberline {4.4.5.2}czas\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}pomiaru}{23}
+\contentsline {subsubsection}{\numberline {4.4.5.3}drukarka}{23}
+\contentsline {subsubsection}{\numberline {4.4.5.4}dziala}{23}
+\contentsline {subsubsection}{\numberline {4.4.5.5}model}{23}
+\contentsline {subsubsection}{\numberline {4.4.5.6}producent}{23}
+\contentsline {subsubsection}{\numberline {4.4.5.7}wyswietlacz}{24}
+\contentsline {section}{\numberline {4.5}Smartekg Class Reference}{24}
+\contentsline {subsection}{\numberline {4.5.1}Detailed Description}{25}
+\contentsline {subsection}{\numberline {4.5.2}Constructor \& Destructor Documentation}{25}
+\contentsline {subsubsection}{\numberline {4.5.2.1}Smartekg()}{25}
+\contentsline {subsubsection}{\numberline {4.5.2.2}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Smartekg()}{25}
+\contentsline {subsection}{\numberline {4.5.3}Member Function Documentation}{25}
+\contentsline {subsubsection}{\numberline {4.5.3.1}odczyt\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}z\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}pliku()}{25}
+\contentsline {subsubsection}{\numberline {4.5.3.2}operator$<$$<$()}{26}
+\contentsline {subsubsection}{\numberline {4.5.3.3}operator$>$$>$()}{26}
+\contentsline {subsubsection}{\numberline {4.5.3.4}ustaw()}{26}
+\contentsline {subsubsection}{\numberline {4.5.3.5}wlacz()}{26}
+\contentsline {subsubsection}{\numberline {4.5.3.6}wylacz()}{26}
+\contentsline {subsubsection}{\numberline {4.5.3.7}zapisz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}do\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}pliku()}{26}
+\contentsline {subsubsection}{\numberline {4.5.3.8}zrobbadanie()}{27}
+\contentsline {subsection}{\numberline {4.5.4}Friends And Related Function Documentation}{27}
+\contentsline {subsubsection}{\numberline {4.5.4.1}operator$<$$<$}{27}
+\contentsline {section}{\numberline {4.6}Termometr Class Reference}{27}
+\contentsline {subsection}{\numberline {4.6.1}Detailed Description}{28}
+\contentsline {subsection}{\numberline {4.6.2}Constructor \& Destructor Documentation}{28}
+\contentsline {subsubsection}{\numberline {4.6.2.1}Termometr()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [1/2]}}{28}
+\contentsline {subsubsection}{\numberline {4.6.2.2}Termometr()\hspace {0.1cm}{\relax \fontsize {8}{9.5}\selectfont \abovedisplayskip 6\p@ plus2\p@ minus4\p@ \abovedisplayshortskip \z@ plus\p@ \belowdisplayshortskip 3\p@ plus\p@ minus2\p@ \def \leftmargin \leftmargini \parsep 4\p@ plus2\p@ minus\p@ \topsep 8\p@ plus2\p@ minus4\p@ \itemsep 4\p@ plus2\p@ minus\p@ {\leftmargin \leftmargini \topsep 3\p@ plus\p@ minus\p@ \parsep 2\p@ plus\p@ minus\p@ \itemsep \parsep }\belowdisplayskip \abovedisplayskip \ttfamily [2/2]}}{29}
+\contentsline {subsubsection}{\numberline {4.6.2.3}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Termometr()}{29}
+\contentsline {subsection}{\numberline {4.6.3}Member Function Documentation}{29}
+\contentsline {subsubsection}{\numberline {4.6.3.1}odczyt\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}z\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}pliku()}{29}
+\contentsline {subsubsection}{\numberline {4.6.3.2}operator$<$$<$()}{29}
+\contentsline {subsubsection}{\numberline {4.6.3.3}operator$>$$>$()}{30}
+\contentsline {subsubsection}{\numberline {4.6.3.4}uzupelnij\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}dane()}{30}
+\contentsline {subsubsection}{\numberline {4.6.3.5}wlacz()}{30}
+\contentsline {subsubsection}{\numberline {4.6.3.6}wylacz()}{30}
+\contentsline {subsubsection}{\numberline {4.6.3.7}zapisz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}do\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}pliku()}{30}
+\contentsline {subsubsection}{\numberline {4.6.3.8}zrobbadanie()}{31}
+\contentsline {subsection}{\numberline {4.6.4}Friends And Related Function Documentation}{31}
+\contentsline {subsubsection}{\numberline {4.6.4.1}operator$<$$<$}{31}
+\contentsline {section}{\numberline {4.7}Wyswietlacz Class Reference}{31}
+\contentsline {subsection}{\numberline {4.7.1}Detailed Description}{32}
+\contentsline {subsection}{\numberline {4.7.2}Constructor \& Destructor Documentation}{32}
+\contentsline {subsubsection}{\numberline {4.7.2.1}Wyswietlacz()}{32}
+\contentsline {subsubsection}{\numberline {4.7.2.2}$\sim $\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}Wyswietlacz()}{32}
+\contentsline {subsection}{\numberline {4.7.3}Member Function Documentation}{32}
+\contentsline {subsubsection}{\numberline {4.7.3.1}odczyt\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}z\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}pliku()}{32}
+\contentsline {subsubsection}{\numberline {4.7.3.2}operator$<$$<$()}{33}
+\contentsline {subsubsection}{\numberline {4.7.3.3}operator$>$$>$()}{33}
+\contentsline {subsubsection}{\numberline {4.7.3.4}uzupelnij\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}dane()}{33}
+\contentsline {subsubsection}{\numberline {4.7.3.5}zapisz\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}do\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}\_\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}pliku()}{33}
+\contentsline {subsection}{\numberline {4.7.4}Friends And Related Function Documentation}{34}
+\contentsline {subsubsection}{\numberline {4.7.4.1}operator$<$$<$}{34}
+\contentsline {chapter}{\numberline {5}File Documentation}{35}
+\contentsline {section}{\numberline {5.1}aparatmedyczny.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h File Reference}{35}
+\contentsline {section}{\numberline {5.2}bateria.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{35}
+\contentsline {subsection}{\numberline {5.2.1}Function Documentation}{35}
+\contentsline {subsubsection}{\numberline {5.2.1.1}operator$<$$<$()}{35}
+\contentsline {section}{\numberline {5.3}bateria.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h File Reference}{36}
+\contentsline {section}{\numberline {5.4}drukarka.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{36}
+\contentsline {section}{\numberline {5.5}drukarka.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h File Reference}{36}
+\contentsline {section}{\numberline {5.6}elektrokardiograf.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{36}
+\contentsline {subsection}{\numberline {5.6.1}Function Documentation}{36}
+\contentsline {subsubsection}{\numberline {5.6.1.1}operator$<$$<$()}{37}
+\contentsline {section}{\numberline {5.7}elektrokardiograf.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h File Reference}{37}
+\contentsline {section}{\numberline {5.8}interfejs.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{37}
+\contentsline {subsection}{\numberline {5.8.1}Function Documentation}{37}
+\contentsline {subsubsection}{\numberline {5.8.1.1}interfejs()}{37}
+\contentsline {section}{\numberline {5.9}interfejs.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h File Reference}{37}
+\contentsline {subsection}{\numberline {5.9.1}Function Documentation}{38}
+\contentsline {subsubsection}{\numberline {5.9.1.1}interfejs()}{38}
+\contentsline {section}{\numberline {5.10}main.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{38}
+\contentsline {subsection}{\numberline {5.10.1}Function Documentation}{38}
+\contentsline {subsubsection}{\numberline {5.10.1.1}main()}{38}
+\contentsline {section}{\numberline {5.11}smartekg.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{38}
+\contentsline {subsection}{\numberline {5.11.1}Function Documentation}{39}
+\contentsline {subsubsection}{\numberline {5.11.1.1}operator$<$$<$()}{39}
+\contentsline {section}{\numberline {5.12}smartekg.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h File Reference}{39}
+\contentsline {section}{\numberline {5.13}termometr.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{39}
+\contentsline {subsection}{\numberline {5.13.1}Function Documentation}{39}
+\contentsline {subsubsection}{\numberline {5.13.1.1}operator$<$$<$()}{39}
+\contentsline {section}{\numberline {5.14}termometr.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h File Reference}{40}
+\contentsline {section}{\numberline {5.15}wyswietlacz.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}cpp File Reference}{40}
+\contentsline {subsection}{\numberline {5.15.1}Function Documentation}{40}
+\contentsline {subsubsection}{\numberline {5.15.1.1}operator$<$$<$()}{40}
+\contentsline {section}{\numberline {5.16}wyswietlacz.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h File Reference}{40}
+\contentsline {chapter}{Index}{41}

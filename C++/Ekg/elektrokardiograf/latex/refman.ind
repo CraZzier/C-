@@ -1,0 +1,289 @@
+\begin{theindex}
+
+  \item {$\sim$\+Bateria}
+    \subitem {Bateria}, 10
+  \item {$\sim$\+Drukarka}
+    \subitem {Drukarka}, 13
+  \item {$\sim$\+Elektrokardiograf}
+    \subitem {Elektrokardiograf}, 18
+  \item {$\sim$\+Smartekg}
+    \subitem {Smartekg}, 25
+  \item {$\sim$\+Termometr}
+    \subitem {Termometr}, 29
+  \item {$\sim$\+Wyswietlacz}
+    \subitem {Wyswietlacz}, 32
+
+  \indexspace
+
+  \item {Aparatmedyczny}, 7
+    \subitem {cena}, 9
+    \subitem {dlugosc}, 9
+    \subitem {odczyt\+\_\+z\+\_\+pliku}, 8
+    \subitem {szerokosc}, 9
+    \subitem {waga}, 9
+    \subitem {wlacz}, 8
+    \subitem {wylacz}, 8
+    \subitem {zapisz\+\_\+do\+\_\+pliku}, 8
+    \subitem {zrobbadanie}, 8
+  \item {aparatmedyczny.\+h}, 35
+
+  \indexspace
+
+  \item {Bateria}, 10
+    \subitem {$\sim$\+Bateria}, 10
+    \subitem {Bateria}, 10
+    \subitem {odczyt\+\_\+z\+\_\+pliku}, 11
+    \subitem {operator$<$$<$}, 11, 12
+    \subitem {operator$>$$>$}, 11
+    \subitem {zapisz\+\_\+do\+\_\+pliku}, 11
+    \subitem {zdefiniuj\+\_\+baterie}, 12
+  \item {bateria}
+    \subitem {Elektrokardiograf}, 22
+  \item {bateria.\+cpp}, 35
+    \subitem {operator$<$$<$}, 35
+  \item {bateria.\+h}, 36
+
+  \indexspace
+
+  \item {cena}
+    \subitem {Aparatmedyczny}, 9
+  \item {czas\+\_\+pomiaru}
+    \subitem {Elektrokardiograf}, 23
+  \item {czypusta}
+    \subitem {Drukarka}, 14
+
+  \indexspace
+
+  \item {dlugosc}
+    \subitem {Aparatmedyczny}, 9
+  \item {dodaj\+\_\+kartke}
+    \subitem {Drukarka}, 14
+  \item {Drukarka}, 12
+    \subitem {$\sim$\+Drukarka}, 13
+    \subitem {czypusta}, 14
+    \subitem {dodaj\+\_\+kartke}, 14
+    \subitem {Drukarka}, 13
+    \subitem {odczyt\+\_\+z\+\_\+pliku}, 14
+    \subitem {operator$<$$<$}, 14
+    \subitem {operator$>$$>$}, 14
+    \subitem {ustaw\+\_\+drukarke}, 14
+    \subitem {wydrukuj\+\_\+kartke}, 15
+    \subitem {zapisz\+\_\+do\+\_\+pliku}, 15
+  \item {drukarka}
+    \subitem {Elektrokardiograf}, 23
+  \item {drukarka.\+cpp}, 36
+  \item {drukarka.\+h}, 36
+  \item {dziala}
+    \subitem {Elektrokardiograf}, 23
+
+  \indexspace
+
+  \item {Elektrokardiograf}, 15
+    \subitem {$\sim$\+Elektrokardiograf}, 18
+    \subitem {bateria}, 22
+    \subitem {czas\+\_\+pomiaru}, 23
+    \subitem {drukarka}, 23
+    \subitem {dziala}, 23
+    \subitem {Elektrokardiograf}, 17, 18
+    \subitem {model}, 23
+    \subitem {nadaj\+\_\+\+Wartosci}, 18
+    \subitem {odczyt\+\_\+z\+\_\+pliku}, 18
+    \subitem {operator int}, 19
+    \subitem {operator$<$$<$}, 19, 22
+    \subitem {operator$>$$>$}, 20
+    \subitem {operator++}, 19
+    \subitem {operator=}, 19
+    \subitem {operator==}, 19
+    \subitem {operator[]}, 20
+    \subitem {producent}, 23
+    \subitem {wlacz}, 20
+    \subitem {wloz\+\_\+\+Baterie}, 20
+    \subitem {wylacz}, 20
+    \subitem {wyswietlacz}, 23
+    \subitem {zapisz\+\_\+do\+\_\+pliku}, 21
+    \subitem {zrobbadanie}, 21
+    \subitem {zwroc\+\_\+\+Drukarke}, 21
+    \subitem {zwroc\+\_\+\+Liczbe\+\_\+\+Obiektow}, 21
+    \subitem {zwroc\+\_\+\+Powierzchnie}, 22
+    \subitem {zwroc\+\_\+\+Wage}, 22
+    \subitem {zwroc\+\_\+\+Wyswietlacz}, 22
+  \item {elektrokardiograf.\+cpp}, 36
+    \subitem {operator$<$$<$}, 36
+  \item {elektrokardiograf.\+h}, 37
+
+  \indexspace
+
+  \item {interfejs}
+    \subitem {interfejs.\+cpp}, 37
+    \subitem {interfejs.\+h}, 38
+  \item {interfejs.\+cpp}, 37
+    \subitem {interfejs}, 37
+  \item {interfejs.\+h}, 37
+    \subitem {interfejs}, 38
+
+  \indexspace
+
+  \item {main}
+    \subitem {main.\+cpp}, 38
+  \item {main.\+cpp}, 38
+    \subitem {main}, 38
+  \item {model}
+    \subitem {Elektrokardiograf}, 23
+
+  \indexspace
+
+  \item {nadaj\+\_\+\+Wartosci}
+    \subitem {Elektrokardiograf}, 18
+
+  \indexspace
+
+  \item {odczyt\+\_\+z\+\_\+pliku}
+    \subitem {Aparatmedyczny}, 8
+    \subitem {Bateria}, 11
+    \subitem {Drukarka}, 14
+    \subitem {Elektrokardiograf}, 18
+    \subitem {Smartekg}, 25
+    \subitem {Termometr}, 29
+    \subitem {Wyswietlacz}, 32
+  \item {operator int}
+    \subitem {Elektrokardiograf}, 19
+  \item {operator$<$$<$}
+    \subitem {Bateria}, 11, 12
+    \subitem {bateria.\+cpp}, 35
+    \subitem {Drukarka}, 14
+    \subitem {Elektrokardiograf}, 19, 22
+    \subitem {elektrokardiograf.\+cpp}, 36
+    \subitem {Smartekg}, 26, 27
+    \subitem {smartekg.\+cpp}, 39
+    \subitem {Termometr}, 29, 31
+    \subitem {termometr.\+cpp}, 39
+    \subitem {Wyswietlacz}, 33, 34
+    \subitem {wyswietlacz.\+cpp}, 40
+  \item {operator$>$$>$}
+    \subitem {Bateria}, 11
+    \subitem {Drukarka}, 14
+    \subitem {Elektrokardiograf}, 20
+    \subitem {Smartekg}, 26
+    \subitem {Termometr}, 29
+    \subitem {Wyswietlacz}, 33
+  \item {operator++}
+    \subitem {Elektrokardiograf}, 19
+  \item {operator=}
+    \subitem {Elektrokardiograf}, 19
+  \item {operator==}
+    \subitem {Elektrokardiograf}, 19
+  \item {operator[]}
+    \subitem {Elektrokardiograf}, 20
+
+  \indexspace
+
+  \item {producent}
+    \subitem {Elektrokardiograf}, 23
+
+  \indexspace
+
+  \item {Smartekg}, 24
+    \subitem {$\sim$\+Smartekg}, 25
+    \subitem {odczyt\+\_\+z\+\_\+pliku}, 25
+    \subitem {operator$<$$<$}, 26, 27
+    \subitem {operator$>$$>$}, 26
+    \subitem {Smartekg}, 25
+    \subitem {ustaw}, 26
+    \subitem {wlacz}, 26
+    \subitem {wylacz}, 26
+    \subitem {zapisz\+\_\+do\+\_\+pliku}, 26
+    \subitem {zrobbadanie}, 27
+  \item {smartekg.\+cpp}, 38
+    \subitem {operator$<$$<$}, 39
+  \item {smartekg.\+h}, 39
+  \item {szerokosc}
+    \subitem {Aparatmedyczny}, 9
+
+  \indexspace
+
+  \item {Termometr}, 27
+    \subitem {$\sim$\+Termometr}, 29
+    \subitem {odczyt\+\_\+z\+\_\+pliku}, 29
+    \subitem {operator$<$$<$}, 29, 31
+    \subitem {operator$>$$>$}, 29
+    \subitem {Termometr}, 28
+    \subitem {uzupelnij\+\_\+dane}, 30
+    \subitem {wlacz}, 30
+    \subitem {wylacz}, 30
+    \subitem {zapisz\+\_\+do\+\_\+pliku}, 30
+    \subitem {zrobbadanie}, 31
+  \item {termometr.\+cpp}, 39
+    \subitem {operator$<$$<$}, 39
+  \item {termometr.\+h}, 40
+
+  \indexspace
+
+  \item {ustaw}
+    \subitem {Smartekg}, 26
+  \item {ustaw\+\_\+drukarke}
+    \subitem {Drukarka}, 14
+  \item {uzupelnij\+\_\+dane}
+    \subitem {Termometr}, 30
+    \subitem {Wyswietlacz}, 33
+
+  \indexspace
+
+  \item {waga}
+    \subitem {Aparatmedyczny}, 9
+  \item {wlacz}
+    \subitem {Aparatmedyczny}, 8
+    \subitem {Elektrokardiograf}, 20
+    \subitem {Smartekg}, 26
+    \subitem {Termometr}, 30
+  \item {wloz\+\_\+\+Baterie}
+    \subitem {Elektrokardiograf}, 20
+  \item {wydrukuj\+\_\+kartke}
+    \subitem {Drukarka}, 15
+  \item {wylacz}
+    \subitem {Aparatmedyczny}, 8
+    \subitem {Elektrokardiograf}, 20
+    \subitem {Smartekg}, 26
+    \subitem {Termometr}, 30
+  \item {Wyswietlacz}, 31
+    \subitem {$\sim$\+Wyswietlacz}, 32
+    \subitem {odczyt\+\_\+z\+\_\+pliku}, 32
+    \subitem {operator$<$$<$}, 33, 34
+    \subitem {operator$>$$>$}, 33
+    \subitem {uzupelnij\+\_\+dane}, 33
+    \subitem {Wyswietlacz}, 32
+    \subitem {zapisz\+\_\+do\+\_\+pliku}, 33
+  \item {wyswietlacz}
+    \subitem {Elektrokardiograf}, 23
+  \item {wyswietlacz.\+cpp}, 40
+    \subitem {operator$<$$<$}, 40
+  \item {wyswietlacz.\+h}, 40
+
+  \indexspace
+
+  \item {zapisz\+\_\+do\+\_\+pliku}
+    \subitem {Aparatmedyczny}, 8
+    \subitem {Bateria}, 11
+    \subitem {Drukarka}, 15
+    \subitem {Elektrokardiograf}, 21
+    \subitem {Smartekg}, 26
+    \subitem {Termometr}, 30
+    \subitem {Wyswietlacz}, 33
+  \item {zdefiniuj\+\_\+baterie}
+    \subitem {Bateria}, 12
+  \item {zrobbadanie}
+    \subitem {Aparatmedyczny}, 8
+    \subitem {Elektrokardiograf}, 21
+    \subitem {Smartekg}, 27
+    \subitem {Termometr}, 31
+  \item {zwroc\+\_\+\+Drukarke}
+    \subitem {Elektrokardiograf}, 21
+  \item {zwroc\+\_\+\+Liczbe\+\_\+\+Obiektow}
+    \subitem {Elektrokardiograf}, 21
+  \item {zwroc\+\_\+\+Powierzchnie}
+    \subitem {Elektrokardiograf}, 22
+  \item {zwroc\+\_\+\+Wage}
+    \subitem {Elektrokardiograf}, 22
+  \item {zwroc\+\_\+\+Wyswietlacz}
+    \subitem {Elektrokardiograf}, 22
+
+\end{theindex}

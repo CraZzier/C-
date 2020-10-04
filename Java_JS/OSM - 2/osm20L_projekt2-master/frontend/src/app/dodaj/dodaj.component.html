@@ -1,0 +1,17 @@
+<div class="">
+    <div class="inf-window-title">
+        <div class="inf-window-title-store">
+            <div class="inf-window-title-store-text">
+                <h5>Dodawanie obrazu</h5>
+            </div>
+        </div>
+    </div>
+    <label for="f">
+        <form action="upload.php" class="wyspl" method="post" enctype="multipart/form-data">
+            <input (change)="onFileSelected($event)" id="f" class="btn" type="file" name="fileToUpload" id="fileToUpload">
+            <button (click)="onFileSubmited()" class="btn btn-primary" type="submit" name="submit">Wyślij plik</button>
+        </form>
+    </label>
+
+</div>
+<p> {{user.name}} {{user.surname}} {{user.pesel}}</p>
